@@ -95,7 +95,7 @@ class StudentMarkManagement:
             print(f"\n--- Student {i + 1}/{n} ---")
             sid = input("Student ID: ").strip()
             sname = input("Student Name: ").strip()
-            sdob = input("Date of Birth (DD/MM/YYYY): ").strip()
+            sdob = input("DOB: ").strip()
             self.__students.append(Student(sid, sname, sdob))
 
         input("\nStudents added successfully! Press Enter to continue...")
